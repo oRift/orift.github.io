@@ -2,5 +2,11 @@
 -
 @import "{{ site.theme }}";
 
-$header-bg-color: black:
-$header-bg-color-secondary: black:
+body {
+  background-color: #1D1D1D;
+}
+
+.page-header {
+  backgorund-color: #171717;
+  background-image: none;
+}
