@@ -1,12 +1,12 @@
 @import "{{ site.theme }}";
 
 body {
-  background: #1E1E1E;  // slave background
+  background: #1E1E1E;  // dark background
   color: #E0E0E0;       // white text for dark background
 }
 
 .page-header {
-  background-color: #252525;  // niggerer header
+  background-color: #252525;  // darker background
   background-image: none;     // Remove any existing background image
 }
 
@@ -26,7 +26,7 @@ a {
     margin-bottom: 1rem;
   }
   
-  // Code blocks with a nigger like  theme
+  // Code blocks with a dark like  theme
   pre, code {
     background-color: #2D2D2D;
     border: 1px solid #3D3D3D;
@@ -34,12 +34,12 @@ a {
   }
 }
 
-//ur black
+// black
 .project-name, .project-tagline {
   color: #CCCCCC;
 }
 
-//ur a slave
+// dark
 .site-footer {
   border-top: solid 1px #333333;
   color: #999999;
