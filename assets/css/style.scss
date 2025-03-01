@@ -1,12 +1,46 @@
--
--
 @import "{{ site.theme }}";
 
 body {
- background: #2e2e2e;
+  background: #1E1E1E;  // slave background
+  color: #E0E0E0;       // white text for dark background
 }
 
 .page-header {
-  background-color: #171717;
-  background-image: none;
+  background-color: #252525;  // niggerer header
+  background-image: none;     // Remove any existing background image
+}
+
+// Links styling for dark theme
+a {
+  color: #5F9EA0;  // Muted teal color for links
+  &:hover {
+    color: #7FBCBD;  // Lighter teal on hover
+  }
+}
+
+// Make sure headers are visible on dark background
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: #8FA1FF;  // Light blue-ish headers
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  // Code blocks with a nigger like  theme
+  pre, code {
+    background-color: #2D2D2D;
+    border: 1px solid #3D3D3D;
+    color: #E0E0E0;
+  }
+}
+
+//ur black
+.project-name, .project-tagline {
+  color: #CCCCCC;
+}
+
+//ur a slave
+.site-footer {
+  border-top: solid 1px #333333;
+  color: #999999;
 }
